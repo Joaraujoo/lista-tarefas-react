@@ -1,54 +1,26 @@
-# React + TypeScript + Vite
+# 📋 Lista de Tarefas (To-Do List)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação simples de lista de tarefas com funções básicas de adicionar, marcar como concluído e excluir.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
+- Adicionar novas tarefas
+- Marcar/desmarcar tarefas como concluídas
+- Remover tarefas
+- Dados salvos no navegador (localStorage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias
+- HTML
+- CSS
+- JavaScript
+- ReactJs
 
-## Expanding the ESLint configuration
+## 📷 Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Captura de tela 2025-04-14 205819](https://github.com/user-attachments/assets/5d82fb35-a7bf-450f-b1f6-b71d91267656)
+![Captura de tela 2025-04-14 205917](https://github.com/user-attachments/assets/b2bd63dd-a8a0-46b5-b335-8e03f439109d)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📂 Como usar
+1. Clone o repositório  
+2. Abra o `index.html`  
+3. Use o app diretamente no navegador
