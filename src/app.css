@@ -1,0 +1,12 @@
+.container{
+    max-width: 600px;
+}
+
+.sem-brilho:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+section .btn {
+    margin-left: 5px;
+}
